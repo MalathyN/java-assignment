@@ -1,0 +1,29 @@
+class Department{}
+class Course{}
+class Instructor
+{
+       Department works_in;
+       Course[] teaches;
+       public boolean add_new_course(Instructor, Course);
+       public boolean drop_course(Instructor, Course);
+}
+
+class Student
+{
+       Department major;
+       Course[] takes;
+       public boolean addregister(Student, Course);
+       public boolean unregister(Student, Course);
+}
+
+class Person
+{
+        String name;
+        String address;
+        int month_of_birth;
+        int year_of_birth;
+        Person spouse;
+        Person[] parents;
+        Person[] children;
+        public int get_age(Person);
+}        
